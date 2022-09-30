@@ -1,0 +1,106 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightslategray;
+}
+
+/* outer box containing all the elements of todo list */
+.outer-container{
+    width: 40vw;
+    min-width: 350px;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    background-color: burlywood;
+    
+}
+
+/* name of the app */
+header h1{
+    font-family: 'cursive';
+    font-size: 40px;
+    text-align: center;
+    color:#04246f;
+    margin-top: 10px;
+}
+
+/* box containing input bar and add button */
+.input-container{
+    height: 7%;
+    width:98%;
+    border: 2px solid gray;
+    background-color: cadetblue;
+    
+}
+
+/* input bar where you will type the text */
+.input-bar{
+    height: 65%;
+    width: 70%;
+    font-size: 1.1rem;
+    font-family: cursive;
+    margin: 5px;
+    border: 2px solid lightgray;
+}
+
+.input-bar:hover{
+    background-color: lavenderblush;
+}
+
+/* add button for adding todo item to list */
+.add-button{
+    height: 38px;
+    width: 70px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: cursive;
+    color: #04246f;
+    cursor: pointer;
+    border: 2px solid lightgray;
+}
+
+.add-button:hover{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+
+/* text name as Your Tasks:- */
+p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: cursive;
+    color: #04246f;
+}
+
+/* box containing the list items */
+.tasks-container{
+    height: auto;
+    width: 98%;
+    font-family: 'cursive';
+    background-color: rgb(144, 195, 197);
+    margin:auto;
+    border: 1px solid gray;
+    margin-top:10px;
+}
+
+/* this is the item added to the list */
+.list-item{
+    font-size: 1.1rem;
+    font-family: cursive;
+    font-weight: 400;
+    color: black;
+    padding: 8px;
+    border-bottom: 3px solid rgb(229, 227, 227);
+    text-align: left;
+}
+
+.list-item:hover{
+    background-color:#692359;
+    color:white;
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+
+
