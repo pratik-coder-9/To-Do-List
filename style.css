@@ -50,8 +50,9 @@ header h1{
 
 /* add button for adding todo item to list */
 .add-button{
-    height: 38px;
-    width: 70px;
+    height: 75%;
+    min-width: 40px;
+    margin-left: 20px;
     font-size: 1.3rem;
     font-weight: 600;
     font-family: cursive;
@@ -102,5 +103,11 @@ p{
     text-decoration: line-through;
 }
 
+#delete-instruction{
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: cursive;
+    color: #04246f;
+}
 
 
